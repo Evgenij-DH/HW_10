@@ -84,7 +84,8 @@ body {
     font-weight: bold;
     font-size: 13px;
     line-height: 20px; 
-    margin-left: 50px;
+    margin-left: 32px;
+    margin-right: 18px;
 }
 .link {
     display: block;
@@ -118,7 +119,7 @@ body {
 .down:hover {
     color: #42b5ce;
     background-color: #ffffff;
-    border-top: 2px solid #2aacc8;  
+    border-top: 2px solid #2aacc8; 
 }
 .sr {
     border-bottom: 1px solid #ededed;
@@ -127,6 +128,38 @@ body {
 }
 .menu:hover .serv {
     display: block
+}
+.fon {
+    background-color: #e05936;
+    width: 1000px;
+    height: 441px;
+}
+.we {
+    color: #ffffff;
+    font-family: 'LatoBold', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    /* margin-top: 102px; */
+    /* margin-left: 61px; */
+}
+.cofe {
+    background-image: url('images/paper-coffee-cup-512x512.png');
+    width: 211px;
+    height: 410px;
+    margin-top: 3px;
+    /* margin-left: 64px; */
+   
+}
+.rings {
+    background-image: url('images/Layer_4.png');
+    width: 448px;
+    height: 440px;
+    margin-left: 46px;
+    
+}
+.rew {
+    display: inline-block;
+    vertical-align: top;
 }
 .container {
     max-width: 1010px;
