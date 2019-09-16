@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('fonts/subset-ArialMT.eot');
+    src: url('fonts/subset-ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-ArialMT.woff2') format('woff2'),
+        url('fonts/subset-ArialMT.woff') format('woff'),
+        url('fonts/subset-ArialMT.ttf') format('truetype'),
+        url('fonts/subset-ArialMT.svg#ArialMT') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LatoBlack';
+    src: url('fonts/subset-Lato-Black.eot');
+    src: url('fonts/subset-Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-Lato-Black.woff2') format('woff2'),
+        url('fonts/subset-Lato-Black.woff') format('woff'),
+        url('fonts/subset-Lato-Black.ttf') format('truetype'),
+        url('fonts/subset-Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LatoBold';
+    src: url('fonts/subset-Lato-Bold.eot');
+    src: url('fonts/subset-Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-Lato-Bold.woff2') format('woff2'),
+        url('fonts/subset-Lato-Bold.woff') format('woff'),
+        url('fonts/subset-Lato-Bold.ttf') format('truetype'),
+        url('fonts/subset-Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('fonts/subset-Lato-Regular.eot');
+    src: url('fonts/subset-Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-Lato-Regular.woff2') format('woff2'),
+        url('fonts/subset-Lato-Regular.woff') format('woff'),
+        url('fonts/subset-Lato-Regular.ttf') format('truetype'),
+        url('fonts/subset-Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+}
+.fonheader {  
+    background-color: #e8ebf1;
+    padding: 36px 0px 47px 0px;
+}
+.foncoffee {
+    background-color: #81e4ed;
+    padding: 20px 0px 40px 0px;
+}
+.logo {
+    color: #000000;
+    font-family: 'LatoBlack', sans-serif;
+    font-size: 50px;
+    line-height: 20px;
+    float: left;
+}
+.logos {
+    color: #2aacc8;
+    font-family: 'LatoRegular', sans-serif;
+    font-size: 50px;
+    line-height: 20px;
+}
+.nav {
+    float: right;
+}
+.clearfix {
+    clear: both;
+}
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px; 
+    margin-left: 50px;
+}
+.link {
+    display: block;
+    text-decoration: none;
+    color: #050505; 
+    text-transform: uppercase;
+    text-align: center;
+}
+.down {
+    position: relative;
+}
+.down::after {
+    content: url('images/down_arrow.png');
+    margin-left: 10px;
+}
+.serv {
+    position: absolute;
+    list-style: none;
+    display: none;
+    border-bottom: 2px solid #2aacc8;
+}
+.sudmenu {
+    text-decoration: none;
+    line-height: 36px;
+    color: #030303;
+    display: block;  
+}
+.sudmenu:hover {
+    color: #50bbd2;
+}
+.down:hover {
+    color: #42b5ce;
+    background-color: #ffffff;
+    border-top: 2px solid #2aacc8;  
+}
+.sr {
+    border-bottom: 1px solid #ededed;
+    padding: 0px 5px 0px 5px;
+    background-color: #ffffff;
+}
+.menu:hover .serv {
+    display: block
+}
+.container {
+    max-width: 1010px;
+    width: 100%;
+    padding-left: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
