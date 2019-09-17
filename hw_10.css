@@ -57,7 +57,7 @@ body {
 }
 .foncoffee {
     background-color: #81e4ed;
-    padding: 20px 0px 40px 0px;
+    padding: 20px 0px 20px 0px;
 }
 .logo {
     color: #000000;
@@ -131,37 +131,50 @@ body {
 }
 .fon {
     background-color: #e05936;
-    width: 1000px;
-    height: 441px;
 }
 .we {
     color: #ffffff;
     font-family: 'LatoBold', sans-serif;
     font-size: 50px;
     font-weight: 700;
-    /* margin-top: 102px; */
-    /* margin-left: 61px; */
 }
 .cofe {
     background-image: url('images/paper-coffee-cup-512x512.png');
-    width: 211px;
+    width: 200px;
     height: 410px;
     margin-top: 3px;
-    /* margin-left: 64px; */
-   
 }
 .rings {
     background-image: url('images/Layer_4.png');
     width: 448px;
     height: 440px;
-    margin-left: 46px;
-    
+    margin-left: 52px;
 }
 .rew {
     display: inline-block;
     vertical-align: top;
 }
-.container {
+.points {
+    text-align: center;
+    margin-top: 20px;
+}
+.point {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #71a3a7;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 17px;
+}
+.point:hover {
+    background-color: #ffffff;
+}
+.fonmain {
+    background-color: #e8ebf1;
+    padding: 60px 0px 51px 0px;
+}
+.container {    
     max-width: 1010px;
     width: 100%;
     padding-left: 15px;
