@@ -193,6 +193,10 @@ body {
     text-align: left;
     display: inline-block;
     vertical-align: top;
+    margin-right: 39px;
+}
+.card_airplane {
+    margin-right: 0px;
 }
 .ikon {
     background-image: url('images/Shape_2.png');
@@ -242,6 +246,77 @@ body {
     content: url('images/arrow.png');
     margin-right: 9px;
 }
+.works {
+    margin-top: 29px;
+    width: 1000px;
+    border-bottom: 3px solid #dfe1e5;
+    padding-bottom: 18px;
+}
+.work {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.lat {
+    color: #212121;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-right: 792px;
+}
+.lat::before { 
+    content: url('images/Shape_3.png');
+    margin-right: 25px;
+    margin-left: 1px;
+}
+.but {
+    background-image: url('images/Shape_1.png');
+    background-color: #81e4ed;
+    background-size: 7px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.right {
+    transform: rotate(180deg);
+    margin-left: 11px;
+}
+.contents {
+    margin-top: 20px;
+    width: 1000px;
+    border-bottom: 3px solid #dfe1e5;
+    padding-bottom: 40px;
+}
+.fonlist {
+    background-color: #2aacc8;
+    width: 220px;
+    height: 80px;
+    padding-top: 29px;
+    padding-left: 69px;
+}
+.preview::before {
+    content: url('images/preview.png');
+    margin-right: 35px;
+}    
+.links::before {
+    content: url('images/link.png');
+}
+.content {
+    position: relative;
+}
+.content .fonlist {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 220px;
+    height: 80px;
+    display: none;
+}
+.content:hover .fonlist {
+    display: block;
+}
+
 
 .container {    
     max-width: 1010px;
