@@ -288,10 +288,8 @@ body {
     border-bottom: 3px solid #dfe1e5;
     padding-bottom: 40px;
 }
-.fonlist {
-    background-color: #2aacc8;
-    width: 220px;
-    height: 80px;
+.foncontent {
+    background-color: yellow;
     padding-top: 29px;
     padding-left: 69px;
 }
@@ -304,19 +302,62 @@ body {
 }
 .content {
     position: relative;
+    display: inline-block;
+    vertical-align: top;
 }
-.content .fonlist {
+.content .foncontent {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 220px;
-    height: 80px;
+    height: 81px;
     display: none;
 }
-.content:hover .fonlist {
+.content:hover .foncontent {
     display: block;
 }
-
+.limon {
+    background-color: red;
+}
+.figur {
+    background-color:  #2aacc8; 
+}
+.mishen {
+    background-color: green;
+}
+.content {
+    margin-right: 40px;
+}
+.mishens {
+    margin-right: 0px;
+}
+.testour {
+    width: 425px;
+    margin-top: 21px;
+}
+.test {
+    font-size: 15px;
+    line-height: 20px;
+    color: #111111;
+    text-transform: uppercase;
+}
+.test::before {
+    content: url('images/comments.png');
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.testlor {
+    font-size: 14px;
+    line-height: 24px;
+    color: #6e6e6e;
+    margin-top: 22px;
+}
+.john {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 38px;
+}
 
 .container {    
     max-width: 1010px;
