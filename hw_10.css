@@ -331,7 +331,7 @@ body {
 .mishens {
     margin-right: 0px;
 }
-.testour {
+.moin {
     width: 425px;
     margin-top: 21px;
 }
@@ -357,6 +357,79 @@ body {
     line-height: 24px;
     font-weight: 700;
     margin-top: 38px;
+}
+.clients {
+    font-size: 15px;
+    line-height: 20px;
+    color: #111111;
+    text-transform: uppercase;
+}
+.clients::before {
+    content: url('images/clients.png');
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.client {
+    width: 480px;
+    margin-top: 19px;
+    margin-left: 90px;
+}
+.testour {
+    display: inline-block;
+    vertical-align: top;
+}
+.imgclient {
+    background-image: url('images/12-layers.png');
+    background-repeat: no-repeat;
+    width: 480px;
+    height: 200px;
+    margin-top: 19px;
+}
+.fondownl {
+    background-color: #e8fcfe;
+    padding-top: 35px;
+    padding-bottom: 37px;
+    border: 1px solid #aceef4;
+    margin-top: 41px;
+}    
+.PSD {
+    font-size: 16px;
+    line-height: 26px;
+    width: 607px;
+    color: #6c7373;
+    float: left;
+    margin-left: 31px;
+}
+.downl {
+    background-color: #79dee9;
+    width: 240px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 3px;
+    border: 2px solid #88d3e2;
+    border-radius: 10px;
+}
+.dowldoad {
+    text-decoration: none;
+    color: #233436;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;   
+}
+.dowldoad::before {
+    content: url('images/download.png');
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-right: 24px;
+}
+.downld {
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 19px;
+}
+.clearfix { 
+    clear: both;
 }
 
 .container {    
