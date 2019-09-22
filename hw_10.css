@@ -431,6 +431,48 @@ body {
 .clearfix { 
     clear: both;
 }
+.fonfooter {
+    background-color: #e8ebf1;
+    padding: 33px 0px 54px 0px;
+    margin-top: 40px;
+}
+.footerflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about {
+    width: 233px;
+}
+.aboutus {
+    color: #343436;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.ipsum {
+    color: #030303;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 27px;
+}
+.explores {
+    width: 71px;
+}
+.explore {
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.expl {
+    color: #68696b;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 16px;
+}
 
 .container {    
     max-width: 1010px;
