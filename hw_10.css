@@ -435,6 +435,7 @@ body {
     background-color: #e8ebf1;
     padding: 33px 0px 54px 0px;
     margin-top: 40px;
+    border-top: 2px solid #dddedf;
 }
 .footerflex {
     display: flex;
@@ -443,22 +444,24 @@ body {
 }
 .about {
     width: 233px;
+    margin-right: 62px;
 }
 .aboutus {
-    color: #343436;
+    color: #060606;
     font-size: 15px;
     line-height: 20px;
     font-weight: 700;
     text-transform: uppercase;
 }
 .ipsum {
-    color: #030303;
+    color: #696a6b;
     font-size: 14px;
     line-height: 20px;
     margin-top: 27px;
 }
 .explores {
     width: 71px;
+    margin-right: 72px;
 }
 .explore {
     color: #000000;
@@ -468,12 +471,106 @@ body {
     text-transform: uppercase;
 }
 .expl {
-    color: #68696b;
+    color: #646567;
     font-size: 15px;
     line-height: 26px;
     margin-top: 16px;
 }
-
+.browses {
+    width: 104px;
+    margin-right: 60px;
+}
+.browse {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.brow {
+    color: #5d5e5f;
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 16px;
+}
+.contact {
+    width: 136px;
+    margin-right: 50px;
+}
+.contactus {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.inc {
+    color: #363636;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.adress {
+    color: #717274;
+    font-size: 14px;
+}
+.tel {
+    font-size: 14px;
+    margin-top: 24px;
+}
+.telf {
+    text-decoration: none;
+    color: #646567;
+}
+.fax {
+    color: #69696b;
+    font-size: 14px;
+}
+.connect {
+    width: 203px;
+}
+.connectus {
+    color: #313132;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 9px;
+    margin-bottom: 20px;
+}
+.fac::before {
+    content: url('images/facebook.png');
+    margin-right: 17px;
+}
+.drib::before {
+    content: url('images/dribbble.png');
+    margin-right: 17px;
+}
+.pint::before {
+    content: url('images/pinterestikon.png');
+}
+.ln {
+    content: url('images/linkedin.png');
+    margin-right: 17px;
+}
+.skype::before {
+    content: url('images/skype.png');
+    margin-right: 17px;
+}
+.share::before {
+    content: url('images/share.png');
+}
+.copyr {
+    width: 640px;
+    margin-top: 43px;
+}
+.copyrig {
+    color: #909295;
+    font-size: 13px;
+    line-height: 18px;
+}
+.logofooter {
+    margin-top: 44px;
+    margin-left: 204px;
+}
 .container {    
     max-width: 1010px;
     width: 100%;
