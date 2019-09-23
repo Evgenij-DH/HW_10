@@ -82,23 +82,30 @@ body {
     display: inline-block;
     vertical-align: top;
     font-weight: bold;
-    font-size: 13px;
-    line-height: 20px; 
     margin-left: 32px;
     margin-right: 18px;
 }
 .link {
-    display: block;
     text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
     color: #050505; 
     text-transform: uppercase;
     text-align: center;
 }
-.down {
+.hdown {
     position: relative;
+}    
+.serv {
+    position: absolute;
+    list-style: none;
+    display: none;
+    border-bottom: 5px solid #2aacc8;
+}
+.hdown:hover .serv {
+    display: block;
 }
 .str {
-    /* position: relative; */
     text-decoration: none;
     color: #050505; 
     text-transform: uppercase;
@@ -107,20 +114,16 @@ body {
 .str::after {
     content: url('images/down_arrow.png');
     margin-left: 10px;
-}
-.serv {
-    position: absolute;
-    list-style: none;
-    display: none;
-    border-bottom: 5px solid #2aacc8;
+    margin-right: 11px;
 }
 .sudmenu {
+    width: 199px;
     text-decoration: none;
     line-height: 36px;
     font-size: 13px;
     font-weight: 400;
     color: #030303;
-    display: block;  
+    display: block;
 }
 .sudmenu:hover {
     color: #50bbd2;
@@ -129,15 +132,12 @@ body {
     color: #42b5ce;   
     background-color: #ffffff;
     border-top: 5px solid #2aacc8; 
-    padding: 5px 0px 5px 0px;
+    padding: 10px 0px 13px 0px;
 }
 .sr {
     border-bottom: 1px solid #ededed;
-    padding: 0px 5px 0px 5px;
     background-color: #ffffff;
-}
-.down:hover .serv {
-    display: block
+    padding-left: 17px;
 }
 .fon {
     background-color: #e05936;
