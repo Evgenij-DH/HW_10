@@ -138,6 +138,7 @@ body {
     border-bottom: 1px solid #ededed;
     background-color: #ffffff;
     padding-left: 17px;
+    display: block;
 }
 .fon {
     background-color: #e05936;
