@@ -81,17 +81,18 @@ body {
 .menu {
     display: inline-block;
     vertical-align: top;
-    font-weight: bold;
+    font-weight: 700;
     margin-left: 32px;
-    margin-right: 18px;
 }
 .link {
+    display: block;
     text-decoration: none;
     font-size: 13px;
     line-height: 20px;
     color: #050505; 
     text-transform: uppercase;
     text-align: center;
+    padding: 10px 10px 15px 10px;
 }
 .hdown {
     position: relative;
@@ -104,12 +105,6 @@ body {
 }
 .hdown:hover .serv {
     display: block;
-}
-.str {
-    text-decoration: none;
-    color: #050505; 
-    text-transform: uppercase;
-    text-align: center;
 }
 .str::after {
     content: '';
@@ -129,21 +124,23 @@ body {
     font-weight: 400;
     color: #030303;
     display: block;
+    padding-left: 11px;
+    border-bottom: 1px solid #ededed;
 }
 .sudmenu:hover {
     color: #50bbd2;
 }
+.hdown:hover {
+    background-color: #ffffff;  
+    box-shadow: 0 -5px 0 #2aacc8;
+}
 .str:hover {
     color: #42b5ce;   
-    background-color: #ffffff;
-    border-top: 5px solid #2aacc8; 
-    padding: 10px 0px 13px 0px;
 }
 .sr {
-    border-bottom: 1px solid #ededed;
     background-color: #ffffff;
-    padding-left: 17px;
-    display: block;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 .fon {
     background-color: #e05936;
@@ -615,6 +612,12 @@ body {
     height: 51px;
     display: inline-block;
     vertical-align: top;
+}
+.social_network--item {
+    transition: 1s;
+}
+.social_network--item:hover {
+    transform: rotateY(180deg);
 }
 .drib::before {
     content: '';
