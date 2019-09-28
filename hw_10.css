@@ -583,14 +583,15 @@ body {
     color: #363636;
 }
 .telf:hover {
-    color: blue;
+    color: #2aacc8;
+    font-weight: 700;   
 }
 .fax {
     color: #363636;
     font-size: 14px;
 }
 .connect {
-    width: 203px;
+    width: 193px;
 }
 .connectus {
     color: #313132;
@@ -600,14 +601,20 @@ body {
     margin-left: 9px;
     margin-bottom: 20px;
 }
-.fac::before {
+.social_network {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.facebok::before {
     content: '';
     background-image: url('images/facebook.png');
     width: 53px;
     height: 51px;
     display: inline-block;
     vertical-align: top;
-    margin-right: 17px;
 }
 .drib::before {
     content: '';
@@ -616,7 +623,6 @@ body {
     height: 51px;
     display: inline-block;
     vertical-align: top;
-    margin-right: 17px;
 }
 .pint::before {
     content: '';
@@ -626,7 +632,7 @@ body {
     display: inline-block;
     vertical-align: top;
 }
-.ln {
+.ln::before {
     content: '';
     background-image: url('images/linkedin.png');
     width: 53px;
@@ -634,7 +640,6 @@ body {
     display: inline-block;
     vertical-align: top;
     margin-top: 9px;
-    margin-right: 17px;
 }
 .skype::before {
     content: '';
@@ -644,7 +649,6 @@ body {
     display: inline-block;
     vertical-align: top;
     margin-top: 9px;
-    margin-right: 17px;
 }
 .share::before {
     content: '';
@@ -667,6 +671,9 @@ body {
 .logofooter {
     margin-top: 44px;
     margin-left: 204px;
+}
+.logofooter:hover {
+    transform: rotate(180deg);
 }
 .container {    
     max-width: 1010px;
