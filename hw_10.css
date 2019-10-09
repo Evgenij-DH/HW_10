@@ -270,7 +270,7 @@ body {
     font-size: 15px;
     line-height: 20px;
     text-transform: uppercase;
-    margin-right: 792px;
+    float: left;
 }
 .lat::before { 
     content: '';
@@ -291,6 +291,7 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    float: right;
 }
 .right {
     transform: rotate(180deg);
@@ -433,16 +434,6 @@ body {
     float: left;
     margin-left: 31px;
 }
-.downl {
-    background-color: #2aacc8;
-    width: 240px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 3px;
-    border: 2px solid #88d3e2;
-    border-radius: 10px;
-    background: linear-gradient(to top, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
-}
 .dowldoad {
     text-decoration: none;
     color: #233436;
@@ -450,6 +441,16 @@ body {
     line-height: 20px;
     font-weight: 700;
     text-transform: uppercase;   
+    background-color: #2aacc8;
+    width: 240px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 3px;
+    padding-top: 16px;
+    padding-bottom: 19px;
+    border: 2px solid #88d3e2;
+    border-radius: 7px;
+    background: linear-gradient(to top, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
 }
 .dowldoad::before {
     content: '';
@@ -460,11 +461,6 @@ body {
     vertical-align: middle;
     margin-left: 15px;
     margin-right: 24px;
-}
-.downld {
-    list-style: none;
-    padding-top: 16px;
-    padding-bottom: 19px;
 }
 .clearfix { 
     clear: both;
